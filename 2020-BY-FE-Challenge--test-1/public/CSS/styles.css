@@ -1,0 +1,48 @@
+html,
+body {
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    display: flex;
+    flex-flow: column;
+    height: 810px;
+    padding: 0px;
+    -webkit-flex-flow: column;
+    width: 1440px;
+}
+
+@font-face {
+    font-family: "HellixTRIAL";
+    src: url("2020-BY-FE-Challenge--test-1\public\CSS\Fonts\HellixTRIAL-SemiBold.eot");
+    src: url("2020-BY-FE-Challenge--test-1\public\CSS\Fonts\HellixTRIAL-SemiBold.woff") format("woff"), url("2020-BY-FE-Challenge--test-1\public\CSS\Fonts\HellixTRIAL-SemiBold.otf") format("opentype"), url("2020-BY-FE-Challenge--test-1\public\CSS\Fonts\HellixTRIAL-SemiBold.svg#filename") format("svg");
+}
+
+#main {
+    border: 15px solid white;
+    border-radius: 7p;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+}
+
+@media all and (max-width: 100%) {
+    #main,
+    #page {
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+    #main>article,
+    #main>nav,
+    #main>section {
+        -webkit-order: 0;
+        order: 0;
+    }
+    #main>nav,
+    #main>section,
+    header,
+    footer {
+        min-height: 100%;
+        max-height: 100%;
+    }
+}

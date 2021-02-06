@@ -1,0 +1,38 @@
+.cOMPRARBIL {
+    color: #0c1933;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 14px;
+    font-weight: 400;
+    height: 19px;
+    line-height: 19px;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 173px;
+}
+
+#lang {
+    height: 16px;
+    width: 83px;
+}
+
+#pORTUGUES {
+    color: #98a0b2;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: 61px;
+}
+
+footer {
+    background-color: white;
+    border: 15px solid white;
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+    width: 1360p;
+}

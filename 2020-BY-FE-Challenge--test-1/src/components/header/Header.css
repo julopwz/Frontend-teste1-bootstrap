@@ -1,0 +1,190 @@
+header {
+    background: white;
+    border: 15px solid;
+    border-radius: 7p;
+    height: 48px;
+    width: 1360p;
+}
+
+.align-items-center {
+    align-items: center!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.module-header {
+    border: 15px;
+    border-radius: 7p;
+    flex-direction: row;
+    height: 48px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 1410px;
+}
+
+.container-fluid-desktop {
+    align-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 1408px;
+}
+
+.row-align-items-center {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: space-between;
+    position: relative;
+    vertical-align: center;
+    width: 600px;
+}
+
+.search-container {
+    align-content: center;
+    align-items: baseline;
+    height: 48px;
+    margin: 20px;
+    width: 40px;
+}
+
+.col-5clm-left {
+    align-items: baseline;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 14px;
+    height: 48px;
+    justify-content: flex-start;
+    position: relative;
+    vertical-align: center;
+    width: 653px;
+}
+
+.col-2-text-center {
+    align-content: center;
+    align-items: center;
+    height: 48px;
+    text-decoration: none;
+    vertical-align: center;
+    width: 300px;
+}
+
+.col-5-text-rigth-clm-right {
+    align-content: center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+    vertical-align: center;
+    width: 500px;
+}
+
+#mENUUM {
+    color: #0c1933;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+#mENUDOIS {
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+#mENUTRES {
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+#mENUQUATRO {
+    color: #0c1933;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+#mARCA {
+    color: #0c1933;
+    font-family: "HellixTRIAL-Black";
+    font-size: 31px;
+    font-weight: 400;
+    height: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    width: 106px;
+}
+
+#hORARIOS {
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+#cOMOCHEGAR {
+    align-items: baseline;
+    font-family: "HellixTRIAL-SemiBold";
+    font-size: 11px;
+    font-weight: 400;
+    height: 15px;
+    line-height: 15px;
+    margin: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+#cTA {
+    align-items: stretch;
+    background: #feba00;
+    box-shadow: 0px 20px 20px -15px rgba(72, 46, 34, 0.3);
+    border-radius: 4px;
+    height: 48px;
+    width: 200px;
+}
